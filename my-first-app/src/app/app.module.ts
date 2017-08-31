@@ -5,16 +5,17 @@ import {HttpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {ServerComponent} from './server/server.component';
+import {TestComponent} from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent
+    ServerComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
