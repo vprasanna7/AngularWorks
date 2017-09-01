@@ -1,4 +1,9 @@
 h1{
   color: green;
   background: red;
+
+}
+
+h1.hover {
+  background-color: chartreuse;
 }
